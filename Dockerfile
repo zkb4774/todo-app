@@ -4,7 +4,7 @@ FROM node:14-alpine
 RUN apk add --no-cache git python3 make g++
 
 # cloner le dépôt
-RUN git clone -q https://github.com/UssamaxAanfar/todo-app
+RUN git clone -q https://github.com/zkb4774/todo-app
 
 # Dossier courant
 WORKDIR /todo-app
